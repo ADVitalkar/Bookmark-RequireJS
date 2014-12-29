@@ -1,0 +1,13 @@
+<div id="loginForm" ng-controller="LoginController">
+	<h2>LOGIN</h2>
+	<div class="row">
+		<label for="userNameTxt">User Name:</label>
+		<input id="userNameTxt" type="text" ng-model="userName"/>
+	</div>
+	<div class="row">
+		<label for="pwdTxt">Password:</label>
+		<input if="pwdTxt" type="password" ng-model="password"/>
+	</div>
+	<button ng-click="AuthLogin()">Login</button>
+	<p><a href="/Bookmark/#/register">Click to Register Now</a></p>
+</div>
